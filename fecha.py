@@ -1,0 +1,13 @@
+print("Ingrese el día 1")
+d1 = int(input())
+print("Ingrese el mes 1")
+m1 = int(input())
+print("Ingrese el año 1")
+a1 = int(input())
+print("Ingrese el día 2")
+d2 = int(input())
+print("Ingrese el mes 2")
+m2 = int(input())
+print("Ingrese el año 2")
+a2 = int(input())
+

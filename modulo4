@@ -1,0 +1,33 @@
+#declaro variables
+n = 0
+res = ""
+#inicio
+print("Ingrese número")
+n = int( input() )
+if ( n % 4 == 3 ) :
+    res = "tres"
+else: # 0 1 2
+    if ( n % 4 == 1 ):
+        res = "uno"
+    else: # 0 2
+        if( n%4 == 0 ):
+            res="cero"
+        else:
+            res = "dos"
+print( "La respuesta es : ", res )
+
+#print("Ingrese número")
+#n = int(input())
+#s = ""
+#r= n%4
+#if(r == 0):
+#    s = "cero"
+#else:
+#     if( r == 1):
+#            s = "uno"
+#     else:
+#         if( r == 2):
+#                s = "dos"
+#         else:
+#                s = "tres"
+#print("El resto es " + s)
